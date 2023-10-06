@@ -267,7 +267,7 @@ Famine:Biedak
 Spiritcaller:Spiritcaller
 Amnesiac:Amnesiac
 Imitator:Imitator
-Bandit:Bandit
+Bandit:Bandyta
 Doppelganger:Doppelganger
 Masochist:Masochista
 Doomsayer:Doomsayer
@@ -654,7 +654,7 @@ FamineInfo:Rozdaj zatruty chleb
 SpiritcallerInfo:Turn Players into Evil Spirits
 AmnesiacInfo:Pamietaj role zmarlego gracza
 ImitatorInfo:Imitate a player's role
-BanditInfo:Rob a player's add-on
+BanditInfo:Ukradnij modyfikacje gracza
 DoppelgangerInfo:Steal your target's identity
 MasochistInfo:Daj sie zaatakowac pare razy, aby wygrac.
 DoomsayerInfo:Odgadnij role graczy aby wygrac
@@ -926,7 +926,7 @@ FamineInfoLong:(Neutralna):\nAs the Famine, you give out poisoned bread.\nPlayer
 SpiritcallerInfoLong:(Neutralna):\nAs the Spiritcaller, your victims become Evil Spirits after they die. These spirits can help you win by freezing other players for a short time and/or blocking their vision. Alternatively, the spirits can give you a shield that protects you briefly from an attempted kill.
 AmnesiacInfoLong:(Neutrals):\nAs the Amnesiac, use your report button to remember a role.\n\nIf the target was an Impostor, you'll become a <b><color=#ff1919>Refugee</color></b>.\nIf the target was a crewmate, you'll become a <b><color=#FFB347>Sheriff</color></b>.\nIf the target was a passive neutral or a neutral killer not specified, you'll become the role defined in the settings.\nIf the target was a neutral killer of a select few, you'll become the role they are.\nIf the target was a member of the Coven, you'll become a <b><color=#663399>Banshee</color></b>
 ImitatorInfoLong:(Neutrals):\nAs the Imitator, use your kill button to imitate a player.\n\nYou'll either become a Sheriff, Refugee, or some neutral.
-BanditInfoLong:(Neutrals):\nAs the Bandit, use your kill button to steal a player's add-on. Depending on the settings, you may instantly steal the addon or after the meeting starts. After the max number of steals are reached you will be able to kill normally. Additionally, if there are no stealable addons present on the target you will the target.\n\nKill everyone to win.\n\nNote:- Cleansed, Last Impostor and Lovers can not be stolen.
+BanditInfoLong:(Neutrals):\nJako Bandyta, skorzystaj z przycisku kill aby ukrasc modyfikacje gracza. W zaleznosci od ustawien, mozesz do razu ukrasc modyfikacje, badz po rozpoczeciu spotkania(meetingu). Jezeli osiagniesz maksymalna liczbe ukradnietych modyfikacji, zaczniesz normalnie zabijac. Dodatkowo, jezeli Twoj cel nie ma zadnych modyfikacji, zabijesz go.\n\nZabij wszystkich aby wygrac.\n\nUwaga:- Modyfikacji Cleansed, Ostatni Impostor i Kochankow nie da sie ukrasc.
 DoppelgangerInfoLong:(Neutrals):\nAs the Doppelganger, use your kill button to steal a player's identity (their name and skin) and then kill your target.\n\nKill everyone to win.\n\nNote:- You can not steal the identity of the target when Camouflage is active.
 MasochistInfoLong:(Neutralna):\nAs the Masochist, your goal is to get attacked a few times to win.\n\nYou cannot be guessed, as that adds to your attack count.
 DoomsayerInfoLong:(Neutralna):\nThe Doomsayer can guess the role of a certain player during the meeting.\nIf the Doomsayer guesses a certain number of roles (the number depends on the host settings) then he wins.\nThe guessing command is: /bt [player id] [role]\nYou can see the player's id before the player's name, or use the /id command to view the id of all players.
@@ -996,7 +996,7 @@ AdmiredInfoLong:(Betrayal Modyfikacja):\nAs an admired player, you win with the 
 GlowInfoLong:(Add-ons):\nAs the Glow, your name is colored during a lights sabotage.
 DiseasedInfoLong:(Modyfikacja):\nWhen someone tries to use kill button on you, their czas odnowienia will be increased by configurable amount of time
 AntidoteInfoLong:(Modyfikacja):\nWhen someone tries to use kill button on you, their czas odnowienia will be decreased by configurable amount of time
-StubbornInfoLong:(Add-ons):\nWith the Stubborn add on, Eraser can’t erase your role erase, Cleanser can't cleanse you, Bandit can't steal from you and Monarch can't knight you.\nAdditionally, you can’t gain any new addons from the merchant
+StubbornInfoLong:(Add-ons):\nWith the Stubborn add on, Eraser can’t erase your role erase, Cleanser can't cleanse you, Bandyta can't steal from you and Monarch can't knight you.\nAdditionally, you can’t gain any new addons from the merchant
 SwiftInfoLong:(Modyfikacja):\nAs the Swift, your kills will not cause you to lunge.
 UnluckyInfoLong:(Modyfikacja):\nAs the Unlucky, doing tasks, killing, or venting as a chance to kill you.
 VoidBallotInfoLong:(Add-ons):\nHolder of this addon will have 0 vote count
@@ -2745,14 +2745,14 @@ IncompatibleNeutralMode:If neutral is incompatible, turn into
 IncompatibleCrewmateMode:If crewmate is incompatible, turn into
 RememberedYourRole:An Amnesiac rmembered your role!
 YouRememberedRole:You remembered who you were!
-BanditStealMode.OnMeeting:On Meeting
-BanditStealMode.Instantly:Instantly
-BanditMaxSteals:Maximum Steals
+BanditStealMode.OnMeeting:Podczas Spotkania
+BanditStealMode.Instantly:Od razu
+BanditMaxSteals:Maksymalna liczba kradziezy
 BanditKillCooldown:Kill cooldown
-BanditStealMode:Steal Mode
+BanditStealMode:Tryb Kradziezy
 BanditCanStealBetrayalAddon:Can Steal Betrayal Addons
-BanditCanStealImpOnlyAddon:Can Steal <color=#ff1919>Impostor</color> Only Addons
-BanditCanUseSabotage:Can Sabotage
+BanditCanStealImpOnlyAddon:Moze krasc tylko <color=#ff1919>Impostorskie</color> modyfikacje
+BanditCanUseSabotage:Moze sabotowazc
 DoppelMaxSteals:Maximum Steals
 DoppelKillCooldown:Kill cooldown
 NecromancerRevengeTime:Necromancy time
@@ -3233,7 +3233,7 @@ WinnerRoleText.Shade:Shade Wins!
 WinnerRoleText.SoulCollector:Soul Collector Wins!
 WinnerRoleText.NiceMini:Nice Mini Wins!
 WinnerRoleText.Mini:Nice Mini was killed
-WinnerRoleText.Bandit:Bandit Wins!
+WinnerRoleText.Bandit:Bandyta Wygrywa!
 WinnerRoleText.RuthlessRomantic:Ruthless Romantic Wins!
 AdditionalWinnerRoleText.Sidekick:Sidekick
 AdditionalWinnerRoleText.Opportunist:Opportunist
