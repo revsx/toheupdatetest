@@ -2639,7 +2639,9 @@ WitnessButtonText:
 WitnessFoundInnocent:
 WitnessFoundKiller:
 SwapperMax:
+CanSwapSelfVotes:
 SwapperTrialMax:
+CantSwapSelf:
 SwapVote:
 SwapVoteC:
 SwapDead:
