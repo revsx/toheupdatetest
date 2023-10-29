@@ -1169,6 +1169,7 @@ AutoDisplayLastRoles:
 AutoDisplayLastResult:
 EnableYTPlan:
 KickLowLevelPlayer:
+TempBanLowLevelPlayer:
 ApplyWhiteList:
 AutoKickStart:
 AutoKickStartTimes:
@@ -1177,6 +1178,8 @@ AutoKickStopWords:
 AutoKickStopWordsTimes:
 AutoKickStopWordsAsBan:
 AutoWarnStopWords:
+TempBanPlayersWhoKeepQuitting:
+QuitTimesTillTempBan:
 KickOtherPlatformPlayer:
 OptKickAndroidPlayer:
 OptKickIphonePlayer:
@@ -1206,6 +1209,7 @@ DisableSkeldDevices:
 DisableMiraHQDevices:
 DisablePolusDevices:
 DisableAirshipDevices:
+DisableFungleDevices:
 DisableSkeldAdmin:
 DisableMiraHQAdmin:
 DisablePolusAdmin:
@@ -1217,6 +1221,8 @@ DisableAirshipCamera:
 DisableMiraHQDoorLog:
 DisablePolusVital:
 DisableAirshipVital:
+DisableFungleVital:
+DisableFungleBinoculars:
 IgnoreConditions:
 IgnoreImpostors:
 IgnoreNeutrals:
@@ -1237,6 +1243,7 @@ DisableOnSkeld:
 DisableOnMira:
 DisableOnPolus:
 DisableOnAirship:
+DisableOnFungle:
 DisableReportWhenCC:
 EnableDebugMode:
 ChangeNameToRoleInfo:
@@ -1247,8 +1254,13 @@ RoleAssigningAlgorithm.NetRandom:
 RoleAssigningAlgorithm.HashRandom:
 RoleAssigningAlgorithm.Xorshift:
 RoleAssigningAlgorithm.MersenneTwister:
+MapModification:
 DisableAirshipMovingPlatform:
 AirshipVariableElectrical:
+DisableSporeTriggerOnFungle:
+DisableZiplineOnFungle:
+DisableZiplineFromTop:
+DisableZiplineFromUnder:
 ResetDoorsEveryTurns:
 DoorsResetMode:
 AllOpen:
@@ -1256,6 +1268,7 @@ AllClosed:
 RandomByDoor:
 ApplyDenyNameList:
 KickPlayerFriendCodeNotExist:
+TempBanPlayerFriendCodeNotExist:
 ApplyBanList:
 EndWhenPlayerBug:
 RemovePetsAtDeadPlayers:
@@ -2111,6 +2124,7 @@ Message.BanedByBanList:
 Message.BanedByEACList:
 Message.DumpfileSaved:
 Message.KickedByNoFriendCode:
+Message.TempBannedByNoFriendCode:
 Message.AddedPlayerToBanList:
 Message.KickWhoSayStart:
 Message.WarnWhoSayStart:
@@ -2121,6 +2135,7 @@ Message.KickWhoSayBanWordAfterWarn:
 Message.KickedByEAC:
 Message.BanedByEAC:
 Message.NoticeByEAC:
+Message.TempBannedForSpamQuitting:
 Message.SetLevel:
 Message.SetColor:
 Message.AllowLevelRange:
@@ -2401,6 +2416,7 @@ PlayerLeftByAU-Anticheat:
 PlayerLeftByError:
 MsgKickOtherPlatformPlayer:
 KickBecauseLowLevel:
+TempBannedBecauseLowLevel:
 KickBecauseDiffrentVersionOrMod:
 MsgKickXboxPlayer:
 MsgKickPlayStationPlayer:
@@ -2507,6 +2523,7 @@ SkeldChance:
 MiraChance:
 PolusChance:
 AirshipChance:
+FungleChance:
 UseMoreRandomMapSelection:
 CamouflageMode.Default:
 CamouflageMode.Host:
@@ -3267,3 +3284,4 @@ FFFCanKillEgoist:
 FFFCanKillInfected:
 FFFCanKillContagious:
 FFFCanKillAdmired:
+AutoMuteUs:
