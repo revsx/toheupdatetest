@@ -88,7 +88,7 @@ FireWorks:Fajerwerk
 SerialKiller:Seryjny Morderca
 ShapeMaster:Mistrz Shiftu
 Vampire:Wampir
-Vampiress:Vampiress
+Vampiress:Wampirzyca
 Warlock:Czarnoksieznik
 Assassin:Ninja
 Zombie:Zombie
@@ -474,7 +474,7 @@ FireWorksInfo:Odejdz z HUKIEM!
 SerialKillerInfo:Kontynuuj zabijanie, w przeciwnym razie popelnisz samobojstwo
 ShapeMasterInfo:Mozesz sie zmieniac w kazdej chwili
 VampireInfo:Twoje zabojstwa sa opoznione
-VampiressInfo:Your kills are delayed and direct
+VampiressInfo:Twoje zabojstwa sa opoznione i bezposrednie.
 WarlockInfo:Rzuc zaklecie na graczy, a pozniej zmien sie
 AssassinInfo:Oznacz cel, a nastepnie zmien sie, aby zabic
 ZombieInfo:Jestes bardzo powolny
@@ -747,7 +747,7 @@ FireWorksInfoLong:(Impostorzy):\nFajerwerk moze stawiac fajerwerki, aby zabic gr
 SerialKillerInfoLong:(Impostorzy):\nMasz mniejszy czas odnowienia zabojstwa od innych Impostorow, jednakze umrzesz, jezeli nie zdolasz zabic przed uplynieciem czasu shift.
 ShapeMasterInfoLong:(Impostorzy):\nMistrz Shiftu nie ma ograniczen co do czestosci shiftowania, natomiast czas trwania jego shiftu jest krotszy.
 VampireInfoLong:(Impostorzy):\nUgryziony gracz nie umrze od razu, ale po czasie. Jezeli w miedzyczasie bedzie spotkanie, gracz umrze od razu. W momencie, gdy ugryziesz Przynete, od razu zglaszasz cialo, a przyczyna smierci Przynety bedzie zwykle zabojstwo.
-VampiressInfoLong:(Impostors):\nAs the Vampiress, you bite players much like a Vampire. However, you can also kill normally.\n\nClick one to bite.\nClick twice to kill normally.
+VampiressInfoLong:(Impostors):\nJako Wampirzyca, gryziesz graczy na podobnej zasadzie jak Wampir. Natomiast mozesz tez zabijac normalnie.\n\nKliknij przycisk kill raz, aby ugryzc.\nKliknij przycisk dwukrotnie, aby zabic normalnie.
 WarlockInfoLong:(Impostorzy):\nCzarnoksieznik rzuca klatwe na gracza. \nPo rzuceniu klatwy musisz zshiftowac, a wtedy najblizsza osoba do tej, ktora oznaczyles umiera.\nPodczas shiftowania, mozesz normalnie zabijac.\nMozesz oznaczyc tylko jednego gracza na raz.
 ZombieInfoLong:(Impostorzy):\nZombi ma niski czas odnowienia zabojstwa, ale porusza sie powoli i ma mala wizje. Tylko dyktator moze wyglosowac Zombie. Tempo poruszania sie Zombie bedzie spadac wraz z kolejnymi zabojstwami jak i uplywajacym czasem.
 AssassinInfoLong:(Impostorzy):\n Ninja moze skorzystac z przycisku zabojstwa, aby oznaczyc gracza, jezeli oznaczenie sie powiedzie, zobaczy animacje tarczy. Nastepnie, moze skorzystac z opcji shiftu, aby przeteleportowac sie do oznaczonego gracza i go zabic. W zaleznosci od ustawien hosta, Ninja moga zabijac regularnie po dokonaniu pierwszego zamachu.
@@ -787,7 +787,7 @@ WildlingInfoLong:(Impostorzy):\nJako Dzikus, mozesz shiftowac, ale nie masz mozl
 TricksterInfoLong:(Impostorzy):\nAs the Trickster, you function as a regular Impostor but with one key difference.\nYou appear crewmate to crewmate roles.\n\nThe Sheriff cannot kill you.\nPsychic does not see you as evil.\nSnitch cannot find you.
 VindicatorInfoLong:(Impostorzy):\nJako Obronca masz dodatkowe glosy. Taki Burmistrz Impostorski.
 ParasiteInfoLong:(Impostorzy):\nJako Pasozyt, jestes Impostorem, ktory nie zna reszty Impostorow, a oni nie znaja Ciebie.\n\nMozesz zabijac, wentowac, sabotowac. No, wszystko mozesz.\nPo prostu miej swiadomosc, ze jestes Impostorem.
-DisperserInfoLong:(Impostorzy):\nDisperser can use Shapeshift to teleport all players to random vents.\nNote: the Disperser itself will not be teleported with shapeshift and players who are in the vent cannot be teleported.:
+DisperserInfoLong:(Impostorzy):\nRozpraszacz moze skorzystac z opcji zmiany ksztaltu, aby przeteleportowac wszystkich graczy do losowych wentow.\nUwaga: Rozpraszacz, ani Gracze obecnie znajdujacy sie w wentach, nie zostana przeteleportowani.:
 InhibitorInfoLong:(Impostorzy):\nAs the Inhibitor, you can only kill when there is not a critical sabotage active.\n\nIf a critical sabotage is active (eg Lights or Reactor), you cannot kill.
 SaboteurInfoLong:(Impostorzy):\nAs the Saboteur, you can only kill when there is a critical sabotage active.\n\nIf a critical sabotage is active (eg Comms or O2), then you can kill.
 CouncillorInfoLong:(Impostorzy):\nJako Intrygant, zabijasz Graczy podczas spotkania w taki sam sposob jak Sedzia.\nGdy zabijesz podczas spotkania, te morderstwa zostana ukazane jako wyrok Sedziego.\n\nAby zabic Gracza uzyj komendy /tl [id Gracza]\nID Gracza widoczne jest zaraz obok jego nicku badz pod komenda /id, ktora wyswietli ID wszystkich graczy.
@@ -2021,7 +2021,7 @@ WarlockNoTarget:Manipulation failed due to no target
 WarlockControlKill:Target died
 OnCyberStarDead:Warning: Celebrity death!
 OnCyberDead:Warning: Cyber died!
-TeleportedInRndVentByDisperser:Wszyscy zostali teleportowani do otworow wentylacyjnych
+TeleportedInRndVentByDisperser:Wszyscy zostali teleportowani do wentow
 TeleportedByTransporter:Zamiana miejsc z: {0}
 ErrorTeleport:Teleport failed
 LostRoleByEraser:You lost your role because of the <color=#ff1919>Eraser</color>
@@ -2494,7 +2494,7 @@ DivinatorCheck.Result5:<b>{0}</b> jest albo Bard, Juggernaut, Reverie, Arrogance
 DivinatorCheck.Result6:<b>{0}</b> jest albo Koronerem, Agent, Mortician, Seeker, Tracefinder, lub Tropicielem
 DivinatorCheck.Result7:<b>{0}</b> jest albo Bodyguard, Bomber, Fireworker, Agitater, Lookout, lub Atomowka
 DivinatorCheck.Result8:<b>{0}</b> jest albo Bounty Hunter, Detective, Hater, Cleaner, Medusa, lub Psychic
-DivinatorCheck.Result9:<b>{0}</b> jest albo Skazancem, Executioner, Lawyer, Snitch, Disperser, lub Doctor
+DivinatorCheck.Result9:<b>{0}</b> jest albo Skazancem, Executioner, Lawyer, Snitch, Rozpraszaczem, lub Doctor
 DivinatorCheck.Result10:<b>{0}</b> jest albo Intrygantem, Dictator, Judge, Cursed Soul, Cleanser, lub Cursed Wolf
 DivinatorCheck.Result11:<b>{0}</b> jest albo Cpunem, Escapist, Miner, Chronomancer, lub Morphling
 DivinatorCheck.Result12:<b>{0}</b> jest albo Demon, Zombie, Celebrity, Super Star, Deathpact, lub Devourer
@@ -2517,7 +2517,7 @@ DivinatorCheck.Result28:<b>{0}</b> jest albo Puppeteer, Witch, Podkomisarzem, Tr
 DivinatorCheck.Result29:<b>{0}</b> jest albo Crewpostor, Marszalkiem, Workaholic, Phantom, lub Terrorysta
 SunnyboyChance:Szansa na <color=#ff9902>Sunnyboy</color>
 BardChance:Szansa na <color=#ff1919>Bard</color>
-VampiressChance:<color=#ff1919>Vampiress</color> Chance
+VampiressChance:Szansa na <color=#ff1919>Wampirzyce</color>
 NukerChance:Szansa na <color=#ff1919>Atomowke</color>
 SkeldChance:Szansa na ​​​​mape Skeld
 MiraChance:Szansa na ​​​​mape MIRA HQ
