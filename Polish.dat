@@ -322,7 +322,7 @@ Lucky:Lucky
 Unlucky:Unlucky
 VoidBallot:Void Ballot
 Aware:Aware
-Fragile:Fragile
+Fragile:Kruchy
 DoubleShot:Dodatkowy
 Rascal:Rascal
 Soulless:Soulless
@@ -393,7 +393,7 @@ Prefix.Swift:Swift
 Prefix.Unlucky:Unlucky 
 Prefix.VoidBallot:Void 
 Prefix.Aware:Aware 
-Prefix.Fragile:Fragile 
+Prefix.Fragile:Kruchy
 Prefix.Ghoul:Ghoul 
 Prefix.Bloodlust:Bloodlust 
 Prefix.Sunglasses:Okularki
@@ -450,7 +450,7 @@ PrefixB.Swift:(Swift)
 PrefixB.Unlucky:(Unlucky) 
 PrefixB.VoidBallot:(Void) 
 PrefixB.Aware:(Aware) 
-PrefixB.Fragile:(Fragile) 
+PrefixB.Fragile:(Kruchy) 
 PrefixB.Ghoul:(Ghoul) 
 PrefixB.Bloodlust:(Bloodlust) 
 PrefixB.Sunglasses:(Sunglasses) 
@@ -719,7 +719,7 @@ SwiftInfo:Your kills don't cause a lunge
 UnluckyInfo:Wykonywanie czynnosci moze spowodowac Twoja smierc.
 VoidBallotInfo:Your vote count is 0
 AwareInfo:Know who revealed your role
-FragileInfo:Die instantly if someone uses kill button on you
+FragileInfo:Umrzyj natychmiast jezeli ktos uzyje na Tobie przycisku kill.
 GhoulInfo:Zabij swojego morderce z zaswiatow.
 BloodlustInfo:Unleash your bloodlust and kill
 SunglassesInfo:Masz zmniejszona wizje!
@@ -995,7 +995,7 @@ SwiftInfoLong:(Modyfikacja):\nAs the Swift, your kills will not cause you to lun
 UnluckyInfoLong:(Modyfikacja):\nAs the Unlucky, doing tasks, killing, or venting as a chance to kill you.
 VoidBallotInfoLong:(Add-ons):\nHolder of this addon will have 0 vote count
 AwareInfoLong:(Add-ons):\nAs aware, you will be notified in the nexting if a revealing role interacts with you
-FragileInfoLong:(Add-ons):\nAs Fragile, you will die instantly if someone tries to use kill button on you (even if the role can not directly kill)
+FragileInfoLong:(Add-ons):\nJako Kruchy, umrzesz od razu jak tylko ktos uzyje na Tobie przycisku kill (nawet w przypadku gdy rola tej osoby nie jest bezposrednie zabijanie).
 GhoulInfoLong:(Modyfikacja):\nAs the Ghoul, one of two outcomes can occur on task completion.\n\nIf alive: Suicide\nIf dead: You kill your killer if they're alive.\n\nOnly assigned to crewmates, and not crewmates with no tasks or are task based.
 BloodlustInfoLong:(Add-ons):\nAs the Bloodlust, doing tasks allows you to kill.\nWhen you complete a task, the next player you come in contact with dies.\n\nYour bloodlust remains after a meeting.\nUpon making a kill, your bloodlust clears till the next task you complete.\nBloodlusts do not stack.\n\nOnly assigned to crewmates with tasks.
 SunglassesInfoLong:(Modyfikacja):\nJako, ze masz na sobie zle dobrane Okulary, Twoja wizja jest zmniejszona.
@@ -2670,9 +2670,9 @@ CancelSwap1:Cancelled swap on the first target
 CancelSwap2:Cancelled swap on the second target
 SwapTitle:SWAPPER
 SwapperTryHideMsg:Try to hide Swapper's command
-ImpCanBeFragile:<color=#ff1919>Impostors</color> can become <color=#D3D3D3>Fragile</color>
-NeutralCanBeFragile:<color=#7f8c8d>Neutrals</color> can become <color=#D3D3D3>Fragile</color>
-CrewCanBeFragile:<color=#8cffff>Crewmates</color> can become <color=#D3D3D3>Fragile</color>
+ImpCanBeFragile:<color=#ff1919>Impostorzy</color> moga zostac <color=#D3D3D3>Kruchymi</color>
+NeutralCanBeFragile:<color=#7f8c8d>Neutralni</color> moga zostac <color=#D3D3D3>Kruchymi</color>
+CrewCanBeFragile:<color=#8cffff>Niewinni</color> moga zostac <color=#D3D3D3>Kruchymi</color>
 ImpCanKillFragile:<color=#ff1919>Impostors</color> can force kill <color=#D3D3D3>Fragile</color>
 NeutralCanKillFragile:<color=#7f8c8d>Neutrals</color> can force kill <color=#D3D3D3>Fragile</color>
 CrewCanKillFragile:<color=#8cffff>Crewmates</color> can force kill <color=#D3D3D3>Fragile</color>
