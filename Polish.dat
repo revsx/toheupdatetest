@@ -343,7 +343,7 @@ Bloodlust:Bloodlust
 Mare:Zmora
 Burst:Burst
 Sleuth:Sleuth
-Clumsy:Clumsy
+Clumsy:Niezdarny
 Nimble:Nimble
 Circumvent:Circumvent
 Cyber:Cyber
@@ -400,7 +400,7 @@ Prefix.Sunglasses:Okularki
 Prefix.Mare:Zmora 
 Prefix.Burst:Burst 
 Prefix.Sleuth:Sleuth 
-Prefix.Clumsy:Clumsy 
+Prefix.Clumsy:Niezdarny 
 Prefix.Nimble:Nimble 
 Prefix.Circumvent:Circumvent 
 Prefix.Repairman:Repairman 
@@ -457,7 +457,7 @@ PrefixB.Sunglasses:(Sunglasses)
 PrefixB.Mare:(Mare) 
 PrefixB.Burst:(Burst) 
 PrefixB.Sleuth:(Sleuth) 
-PrefixB.Clumsy:(Clumsy) 
+PrefixB.Clumsy:(Niezdarny) 
 PrefixB.Nimble:(Nimble) 
 PrefixB.Circumvent:(Circumvent) 
 PrefixB.Repairman:(Repairman) 
@@ -726,7 +726,7 @@ SunglassesInfo:Masz zmniejszona wizje!
 MareInfo:Zabijaj w ciemnosci
 BurstInfo:Make your killer burst!
 SleuthInfo:Gain info from dead bodies
-ClumsyInfo:You have a chance to miss your kill
+ClumsyInfo:Mozesz nie trafic w przcysik kill
 NimbleInfo:You can vent now!
 CircumventInfo:You can no longer vent
 RepairmanInfo:Fix sabotages faster
@@ -1002,7 +1002,7 @@ SunglassesInfoLong:(Modyfikacja):\nJako, ze masz na sobie zle dobrane Okulary, T
 MareInfoLong:(Modyfikacja):\nMozesz zabijac jedynie przy wylaczonych swiatlach.\nAle za to masz krotszy czas odnowienia zabojstwa.\nPodczas sabotazu swiatel kazdy widzi Twoj nickna czerwono.\nTylko Impostorzy moga byc Zmora, Zmora nie moze zostac odgadnieta
 BurstInfoLong:(Add-ons):\nAs the Burst, your killer explodes if they aren't inside a vent after a set amount of time.
 SleuthInfoLong:(Add-ons):\nAs the Sleuth, you gain info from dead bodies.\n\nOptionally, you may also gain the killer's role.\n\nNot assigned to Detective or Mortician.
-ClumsyInfoLong:(Add-ons):\nAs the Clumsy, you have a chance to miss your kill.\n\nWhen you miss, your cooldown is reset and the target remains untouched.\n\nOnly assigned to killers.
+ClumsyInfoLong:(Add-ons):\nJako ze jestes Niezdarny, mozesz nie trafic w swoj cel.\n\nJezeli nie trafisz w swoj cel, Twoj kill cooldown jest resetowany, a ofierze nic sie nie dzieje.\n\nPrzypisywane jedynie mordercom.
 CircumventInfoLong:(Add-ons):\nAs the Circumvent, you can't vent.\n\nOnly assigned to Impostors.
 NimbleInfoLong:(Add-ons):\nAs the Nimble, you gain access to the vent ability.\n\nOnly assigned to crewmates that have an Impostor basis.
 RepairmanInfoLong:(Add-ons):\nAs the Repairman, you can fix most sabotages much faster than other players.
@@ -2556,8 +2556,8 @@ GNoLow:Oh, you're really nailing this! It's so low, I almost need a shovel to di
 GNoHigh:Oh, absolutely! You're getting warmer. In fact, it's so high, I need a telescope to see it from here! \nYou have <color=#ff0000>{0} guesses</color> left!
 GNoWon:Oh, how did you ever figure that out? It's almost like you're a mind reader! Congratulations, you're a genius! You found the secret number in <color=#00ff00>{0} guesses</color> left!
 ChanceToMiss:Chance to miss a kill
-ImpCanBeClumsy:<color=#ff1919>Impostors</color> can become Clumsy
-NeutralCanBeClumsy:<color=#7f8c8d>Neutral Killers</color> can become Clumsy
+ImpCanBeClumsy:<color=#ff1919>Impostorzy</color> moga byc Niezdarni
+NeutralCanBeClumsy:<color=#7f8c8d>Neutralni Mordercy</color> moga byc Niezdarni
 SoulCollectorPointsToWin:Required number of souls
 SoulCollectorTarget:You have predicted the death of <b>{0}</b>
 SoulCollectorTitle:SOUL COLLECTOR
